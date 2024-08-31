@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+}
+
+.card-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  font-size: 1.6rem;
+}
+
+.card {
+  padding: 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1.5rem;
+}
+
+.profile-image {
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  display: inline-block; /* Is this needed? */
+  width: 10rem;
+  height: 10rem;
+}
+
+.title-name {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.about-me {
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #c5c5c5;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.social-media-link {
+  width: 100%;
+  display: inline-block;
+  padding: 1rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1.5rem;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  box-shadow: 0.1rem 0.1rem 1rem 0 rgb(0, 0, 0, 0.2);
+}
+
+.social-media-link:last-child {
+  margin: 0;
+}
+
+.social-media-link:hover,
+.social-media-link:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
